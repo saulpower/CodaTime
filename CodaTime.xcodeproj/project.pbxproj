@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F331F531863302300EA0A1B /* DateTimeFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F331F511863302300EA0A1B /* DateTimeFormat.cpp */; };
+		5F331F5618633D6000EA0A1B /* DateTimeParserBucket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F331F5418633D6000EA0A1B /* DateTimeParserBucket.cpp */; };
+		5F331F5818635B1D00EA0A1B /* AbstractInstant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F331F5718635B1D00EA0A1B /* AbstractInstant.cpp */; };
+		5F331F5A18635CEB00EA0A1B /* AbstractDateTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F331F5918635CEB00EA0A1B /* AbstractDateTime.cpp */; };
+		5F331F5C1863673900EA0A1B /* BaseInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F331F5B1863673900EA0A1B /* BaseInterval.cpp */; };
+		5F331F5E1863687300EA0A1B /* AbstractInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F331F5D1863687300EA0A1B /* AbstractInterval.cpp */; };
 		5FB17301185B79F800401BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB17300185B79F800401BD2 /* Foundation.framework */; };
-		5FB17306185B79F800401BD2 /* CodaTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FB17305185B79F800401BD2 /* CodaTime.h */; };
-		5FB17308185B79F800401BD2 /* CodaTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17307185B79F800401BD2 /* CodaTime.m */; };
 		5FB1730F185B79F800401BD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB1730E185B79F800401BD2 /* XCTest.framework */; };
 		5FB17310185B79F800401BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB17300185B79F800401BD2 /* Foundation.framework */; };
 		5FB17312185B79F800401BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB17311185B79F800401BD2 /* UIKit.framework */; };
 		5FB17315185B79F800401BD2 /* libCodaTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB172FD185B79F800401BD2 /* libCodaTime.a */; };
 		5FB1731B185B79F800401BD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB17319185B79F800401BD2 /* InfoPlist.strings */; };
 		5FB1731D185B79F800401BD2 /* CodaTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1731C185B79F800401BD2 /* CodaTimeTests.m */; };
+		5FB17328185B7A2A00401BD2 /* DateTimeUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17326185B7A2A00401BD2 /* DateTimeUtils.cpp */; };
+		5FB17337185B953600401BD2 /* Instant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17335185B953600401BD2 /* Instant.cpp */; };
+		5FB1733D185B9D0E00401BD2 /* DateTimeFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1733B185B9D0E00401BD2 /* DateTimeFormatter.cpp */; };
+		5FB17346185BAA6600401BD2 /* LocalTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17344185BAA6600401BD2 /* LocalTime.cpp */; };
+		5FB1734E185C3D4600401BD2 /* Interval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1734C185C3D4600401BD2 /* Interval.cpp */; };
+		5FB17354185F67AC00401BD2 /* ISOChronology.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17352185F67AC00401BD2 /* ISOChronology.cpp */; };
+		5FB17361185F9AC200401BD2 /* DateTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1735F185F9AC200401BD2 /* DateTime.cpp */; };
+		5FB1736F1860B98C00401BD2 /* LocalDateTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1736D1860B98C00401BD2 /* LocalDateTime.cpp */; };
+		5FB1737F18610F8100401BD2 /* BasicYearDateTimeField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1737E18610F8100401BD2 /* BasicYearDateTimeField.cpp */; };
+		5FB17383186112D700401BD2 /* DateTimeZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17382186112D600401BD2 /* DateTimeZone.cpp */; };
+		5FB17386186116F700401BD2 /* AbstractDuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17385186116F700401BD2 /* AbstractDuration.cpp */; };
+		5FB1738A18611A3300401BD2 /* Duration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1738818611A3300401BD2 /* Duration.cpp */; };
+		5FB1738D18611DC000401BD2 /* AbstractPeriod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1738B18611DC000401BD2 /* AbstractPeriod.cpp */; };
+		5FB1739018611FC800401BD2 /* BasePeriod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1738E18611FC800401BD2 /* BasePeriod.cpp */; };
+		5FB173931861505600401BD2 /* Period.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB173911861505600401BD2 /* Period.cpp */; };
+		5FB173961861671800401BD2 /* PeriodType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB173941861671800401BD2 /* PeriodType.cpp */; };
+		5FB173981862219200401BD2 /* BaseChronology.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB173971862219200401BD2 /* BaseChronology.cpp */; };
+		5FB1739A1862266400401BD2 /* BasicChronology.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB173991862266400401BD2 /* BasicChronology.cpp */; };
+		5FB1739C186228E500401BD2 /* DurationFieldType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1739B186228E500401BD2 /* DurationFieldType.cpp */; };
+		5FB1739E18622BC800401BD2 /* DateTimeFieldType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB1739D18622BC800401BD2 /* DateTimeFieldType.cpp */; };
+		5FE4F0F11862385F00797534 /* MutablePeriod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4F0EF1862385F00797534 /* MutablePeriod.cpp */; };
+		5FE4F0F51862478700797534 /* PeriodFormatterBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4F0F31862478700797534 /* PeriodFormatterBuilder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +61,126 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				5FB17306185B79F800401BD2 /* CodaTime.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F331F501863279500EA0A1B /* CodaTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaTimeUtils.h; sourceTree = "<group>"; };
+		5F331F511863302300EA0A1B /* DateTimeFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTimeFormat.cpp; sourceTree = "<group>"; };
+		5F331F521863302300EA0A1B /* DateTimeFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeFormat.h; sourceTree = "<group>"; };
+		5F331F5418633D6000EA0A1B /* DateTimeParserBucket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTimeParserBucket.cpp; sourceTree = "<group>"; };
+		5F331F5518633D6000EA0A1B /* DateTimeParserBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeParserBucket.h; sourceTree = "<group>"; };
+		5F331F5718635B1D00EA0A1B /* AbstractInstant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractInstant.cpp; sourceTree = "<group>"; };
+		5F331F5918635CEB00EA0A1B /* AbstractDateTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractDateTime.cpp; sourceTree = "<group>"; };
+		5F331F5B1863673900EA0A1B /* BaseInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseInterval.cpp; sourceTree = "<group>"; };
+		5F331F5D1863687300EA0A1B /* AbstractInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractInterval.cpp; sourceTree = "<group>"; };
 		5FB172FD185B79F800401BD2 /* libCodaTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodaTime.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB17300185B79F800401BD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FB17304185B79F800401BD2 /* CodaTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodaTime-Prefix.pch"; sourceTree = "<group>"; };
-		5FB17305185B79F800401BD2 /* CodaTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodaTime.h; sourceTree = "<group>"; };
-		5FB17307185B79F800401BD2 /* CodaTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodaTime.m; sourceTree = "<group>"; };
 		5FB1730D185B79F800401BD2 /* CodaTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodaTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB1730E185B79F800401BD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5FB17311185B79F800401BD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5FB17318185B79F800401BD2 /* CodaTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodaTimeTests-Info.plist"; sourceTree = "<group>"; };
 		5FB1731A185B79F800401BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FB1731C185B79F800401BD2 /* CodaTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodaTimeTests.m; sourceTree = "<group>"; };
+		5FB17326185B7A2A00401BD2 /* DateTimeUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTimeUtils.cpp; sourceTree = "<group>"; };
+		5FB17327185B7A2A00401BD2 /* DateTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeUtils.h; sourceTree = "<group>"; };
+		5FB17329185B7A5F00401BD2 /* CodaTimeMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaTimeMacros.h; sourceTree = "<group>"; };
+		5FB1732A185B7F0400401BD2 /* Exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exceptions.h; sourceTree = "<group>"; };
+		5FB1732B185B813300401BD2 /* Chronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chronology.h; sourceTree = "<group>"; };
+		5FB1732C185B82F600401BD2 /* DateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeField.h; sourceTree = "<group>"; };
+		5FB1732D185B84E900401BD2 /* Comparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comparable.h; sourceTree = "<group>"; };
+		5FB1732E185B854E00401BD2 /* ReadablePartial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadablePartial.h; sourceTree = "<group>"; };
+		5FB1732F185B87DC00401BD2 /* DateTimeFieldType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeFieldType.h; sourceTree = "<group>"; };
+		5FB17330185B8E9100401BD2 /* DurationField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationField.h; sourceTree = "<group>"; };
+		5FB17331185B8FD700401BD2 /* DurationFieldType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationFieldType.h; sourceTree = "<group>"; };
+		5FB17332185B922100401BD2 /* ReadablePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadablePeriod.h; sourceTree = "<group>"; };
+		5FB17333185B931600401BD2 /* ReadableInstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadableInstant.h; sourceTree = "<group>"; };
+		5FB17335185B953600401BD2 /* Instant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Instant.cpp; sourceTree = "<group>"; };
+		5FB17336185B953600401BD2 /* Instant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instant.h; sourceTree = "<group>"; };
+		5FB17339185B9AF700401BD2 /* ReadableDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadableDuration.h; sourceTree = "<group>"; };
+		5FB1733B185B9D0E00401BD2 /* DateTimeFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTimeFormatter.cpp; sourceTree = "<group>"; };
+		5FB1733C185B9D0E00401BD2 /* DateTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeFormatter.h; sourceTree = "<group>"; };
+		5FB1733E185BA13900401BD2 /* DateTimeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeParser.h; sourceTree = "<group>"; };
+		5FB1733F185BA19B00401BD2 /* DateTimePrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimePrinter.h; sourceTree = "<group>"; };
+		5FB17340185BA55D00401BD2 /* ReadWritableInstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadWritableInstant.h; sourceTree = "<group>"; };
+		5FB17343185BA98600401BD2 /* BaseLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLocal.h; sourceTree = "<group>"; };
+		5FB17344185BAA6600401BD2 /* LocalTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalTime.cpp; sourceTree = "<group>"; };
+		5FB17345185BAA6600401BD2 /* LocalTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalTime.h; sourceTree = "<group>"; };
+		5FB17348185BABA100401BD2 /* AbstractReadableInstantFieldProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractReadableInstantFieldProperty.h; sourceTree = "<group>"; };
+		5FB17349185C311000401BD2 /* ReadableInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadableInterval.h; sourceTree = "<group>"; };
+		5FB1734A185C343700401BD2 /* AbstractInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractInterval.h; sourceTree = "<group>"; };
+		5FB1734B185C398A00401BD2 /* BaseInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInterval.h; sourceTree = "<group>"; };
+		5FB1734C185C3D4600401BD2 /* Interval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interval.cpp; sourceTree = "<group>"; };
+		5FB1734D185C3D4600401BD2 /* Interval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interval.h; sourceTree = "<group>"; };
+		5FB17350185F5F9200401BD2 /* BaseChronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseChronology.h; sourceTree = "<group>"; };
+		5FB17351185F652600401BD2 /* AssembledChronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssembledChronology.h; sourceTree = "<group>"; };
+		5FB17352185F67AC00401BD2 /* ISOChronology.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ISOChronology.cpp; sourceTree = "<group>"; };
+		5FB17353185F67AC00401BD2 /* ISOChronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISOChronology.h; sourceTree = "<group>"; };
+		5FB17355185F750D00401BD2 /* UnsupportedDurationfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsupportedDurationfield.h; sourceTree = "<group>"; };
+		5FB17356185F7EF000401BD2 /* UnsupportedDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsupportedDateTimeField.h; sourceTree = "<group>"; };
+		5FB17357185F84B600401BD2 /* FieldUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldUtils.h; sourceTree = "<group>"; };
+		5FB17358185F869200401BD2 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		5FB17359185F924200401BD2 /* Locale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locale.h; sourceTree = "<group>"; };
+		5FB1735A185F96DA00401BD2 /* ReadableDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadableDateTime.h; sourceTree = "<group>"; };
+		5FB1735B185F978400401BD2 /* AbstractDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDateTime.h; sourceTree = "<group>"; };
+		5FB1735C185F98CF00401BD2 /* BaseDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDateTime.h; sourceTree = "<group>"; };
+		5FB1735F185F9AC200401BD2 /* DateTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTime.cpp; sourceTree = "<group>"; };
+		5FB17360185F9AC200401BD2 /* DateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTime.h; sourceTree = "<group>"; };
+		5FB17362185FA65500401BD2 /* AbstractInstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractInstant.h; sourceTree = "<group>"; };
+		5FB17363185FA65500401BD2 /* AbstractPartial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPartial.h; sourceTree = "<group>"; };
+		5FB17364185FBA8D00401BD2 /* DateTimeZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeZone.h; sourceTree = "<group>"; };
+		5FB17367185FBF2700401BD2 /* FixedDateTimeZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedDateTimeZone.h; sourceTree = "<group>"; };
+		5FB17369185FC03F00401BD2 /* Provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Provider.h; sourceTree = "<group>"; };
+		5FB1736A185FC0C000401BD2 /* NameProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameProvider.h; sourceTree = "<group>"; };
+		5FB1736B185FC9C300401BD2 /* FormatUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtils.h; sourceTree = "<group>"; };
+		5FB1736C185FD3BB00401BD2 /* DateTimeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeConstants.h; sourceTree = "<group>"; };
+		5FB1736D1860B98C00401BD2 /* LocalDateTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalDateTime.cpp; sourceTree = "<group>"; };
+		5FB1736E1860B98C00401BD2 /* LocalDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDateTime.h; sourceTree = "<group>"; };
+		5FB173701860D1B100401BD2 /* BasicChronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicChronology.h; sourceTree = "<group>"; };
+		5FB173711860D54F00401BD2 /* BasicGJChronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicGJChronology.h; sourceTree = "<group>"; };
+		5FB173721860D67000401BD2 /* GregorianChronology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GregorianChronology.h; sourceTree = "<group>"; };
+		5FB173731860D8EA00401BD2 /* BaseDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDateTimeField.h; sourceTree = "<group>"; };
+		5FB173741860DF6F00401BD2 /* PreciseDurationDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreciseDurationDateTimeField.h; sourceTree = "<group>"; };
+		5FB173751860E05B00401BD2 /* PreciseDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreciseDateTimeField.h; sourceTree = "<group>"; };
+		5FB173761860E3E300401BD2 /* MillisDurationField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MillisDurationField.h; sourceTree = "<group>"; };
+		5FB173771860E7C500401BD2 /* GJLocaleSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJLocaleSymbols.h; sourceTree = "<group>"; };
+		5FB173781860F2F300401BD2 /* BaseDurationField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDurationField.h; sourceTree = "<group>"; };
+		5FB173791860F47900401BD2 /* PreciseDurationField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreciseDurationField.h; sourceTree = "<group>"; };
+		5FB1737A1860F8EA00401BD2 /* ZeroIsMaxDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeroIsMaxDateTimeField.h; sourceTree = "<group>"; };
+		5FB1737B1860FA5B00401BD2 /* DecoratedDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratedDateTimeField.h; sourceTree = "<group>"; };
+		5FB1737C186109CE00401BD2 /* ImpreciseDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpreciseDateTimeField.h; sourceTree = "<group>"; };
+		5FB1737D18610BAD00401BD2 /* BasicYearDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicYearDateTimeField.h; sourceTree = "<group>"; };
+		5FB1737E18610F8100401BD2 /* BasicYearDateTimeField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicYearDateTimeField.cpp; sourceTree = "<group>"; };
+		5FB17382186112D600401BD2 /* DateTimeZone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTimeZone.cpp; sourceTree = "<group>"; };
+		5FB173841861167500401BD2 /* AbstractDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDuration.h; sourceTree = "<group>"; };
+		5FB17385186116F700401BD2 /* AbstractDuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractDuration.cpp; sourceTree = "<group>"; };
+		5FB17387186118CF00401BD2 /* BaseDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDuration.h; sourceTree = "<group>"; };
+		5FB1738818611A3300401BD2 /* Duration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Duration.cpp; sourceTree = "<group>"; };
+		5FB1738918611A3300401BD2 /* Duration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duration.h; sourceTree = "<group>"; };
+		5FB1738B18611DC000401BD2 /* AbstractPeriod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractPeriod.cpp; sourceTree = "<group>"; };
+		5FB1738C18611DC000401BD2 /* AbstractPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPeriod.h; sourceTree = "<group>"; };
+		5FB1738E18611FC800401BD2 /* BasePeriod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasePeriod.cpp; sourceTree = "<group>"; };
+		5FB1738F18611FC800401BD2 /* BasePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePeriod.h; sourceTree = "<group>"; };
+		5FB173911861505600401BD2 /* Period.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Period.cpp; sourceTree = "<group>"; };
+		5FB173921861505600401BD2 /* Period.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Period.h; sourceTree = "<group>"; };
+		5FB173941861671800401BD2 /* PeriodType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeriodType.cpp; sourceTree = "<group>"; };
+		5FB173951861671800401BD2 /* PeriodType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodType.h; sourceTree = "<group>"; };
+		5FB173971862219200401BD2 /* BaseChronology.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseChronology.cpp; sourceTree = "<group>"; };
+		5FB173991862266400401BD2 /* BasicChronology.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicChronology.cpp; sourceTree = "<group>"; };
+		5FB1739B186228E500401BD2 /* DurationFieldType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DurationFieldType.cpp; sourceTree = "<group>"; };
+		5FB1739D18622BC800401BD2 /* DateTimeFieldType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTimeFieldType.cpp; sourceTree = "<group>"; };
+		5FE4F0EB1862320600797534 /* ISOPeriodFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISOPeriodFormat.h; sourceTree = "<group>"; };
+		5FE4F0EC186232A200797534 /* PeriodFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodFormatter.h; sourceTree = "<group>"; };
+		5FE4F0ED186234EE00797534 /* PeriodPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodPrinter.h; sourceTree = "<group>"; };
+		5FE4F0EE1862371D00797534 /* ReadWritablePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadWritablePeriod.h; sourceTree = "<group>"; };
+		5FE4F0EF1862385F00797534 /* MutablePeriod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutablePeriod.cpp; sourceTree = "<group>"; };
+		5FE4F0F01862385F00797534 /* MutablePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutablePeriod.h; sourceTree = "<group>"; };
+		5FE4F0F218623FF100797534 /* PeriodParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodParser.h; sourceTree = "<group>"; };
+		5FE4F0F31862478700797534 /* PeriodFormatterBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeriodFormatterBuilder.cpp; sourceTree = "<group>"; };
+		5FE4F0F41862478700797534 /* PeriodFormatterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodFormatterBuilder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +238,55 @@
 		5FB17302185B79F800401BD2 /* CodaTime */ = {
 			isa = PBXGroup;
 			children = (
-				5FB17305185B79F800401BD2 /* CodaTime.h */,
-				5FB17307185B79F800401BD2 /* CodaTime.m */,
+				5FB17342185BA97800401BD2 /* base */,
+				5FB1734F185E67CD00401BD2 /* chrono */,
+				5FB17347185BAB8C00401BD2 /* field */,
+				5FB1733A185B9CFF00401BD2 /* format */,
+				5FB17365185FBEFA00401BD2 /* tz */,
+				5FB1732B185B813300401BD2 /* Chronology.h */,
+				5FB17329185B7A5F00401BD2 /* CodaTimeMacros.h */,
+				5F331F501863279500EA0A1B /* CodaTimeUtils.h */,
+				5FB1732D185B84E900401BD2 /* Comparable.h */,
+				5FB1735F185F9AC200401BD2 /* DateTime.cpp */,
+				5FB17360185F9AC200401BD2 /* DateTime.h */,
+				5FB1736C185FD3BB00401BD2 /* DateTimeConstants.h */,
+				5FB1732C185B82F600401BD2 /* DateTimeField.h */,
+				5FB1739D18622BC800401BD2 /* DateTimeFieldType.cpp */,
+				5FB1732F185B87DC00401BD2 /* DateTimeFieldType.h */,
+				5FB17326185B7A2A00401BD2 /* DateTimeUtils.cpp */,
+				5FB17327185B7A2A00401BD2 /* DateTimeUtils.h */,
+				5FB17382186112D600401BD2 /* DateTimeZone.cpp */,
+				5FB17364185FBA8D00401BD2 /* DateTimeZone.h */,
+				5FB1738818611A3300401BD2 /* Duration.cpp */,
+				5FB1738918611A3300401BD2 /* Duration.h */,
+				5FB17330185B8E9100401BD2 /* DurationField.h */,
+				5FB1739B186228E500401BD2 /* DurationFieldType.cpp */,
+				5FB17331185B8FD700401BD2 /* DurationFieldType.h */,
+				5FB1732A185B7F0400401BD2 /* Exceptions.h */,
+				5FB17335185B953600401BD2 /* Instant.cpp */,
+				5FB17336185B953600401BD2 /* Instant.h */,
+				5FB1734C185C3D4600401BD2 /* Interval.cpp */,
+				5FB1734D185C3D4600401BD2 /* Interval.h */,
+				5FB1736D1860B98C00401BD2 /* LocalDateTime.cpp */,
+				5FB1736E1860B98C00401BD2 /* LocalDateTime.h */,
+				5FB17359185F924200401BD2 /* Locale.h */,
+				5FB17344185BAA6600401BD2 /* LocalTime.cpp */,
+				5FB17345185BAA6600401BD2 /* LocalTime.h */,
+				5FE4F0EF1862385F00797534 /* MutablePeriod.cpp */,
+				5FE4F0F01862385F00797534 /* MutablePeriod.h */,
+				5FB17358185F869200401BD2 /* Object.h */,
+				5FB173911861505600401BD2 /* Period.cpp */,
+				5FB173921861505600401BD2 /* Period.h */,
+				5FB173941861671800401BD2 /* PeriodType.cpp */,
+				5FB173951861671800401BD2 /* PeriodType.h */,
+				5FB1735A185F96DA00401BD2 /* ReadableDateTime.h */,
+				5FB17339185B9AF700401BD2 /* ReadableDuration.h */,
+				5FB17333185B931600401BD2 /* ReadableInstant.h */,
+				5FB17349185C311000401BD2 /* ReadableInterval.h */,
+				5FB1732E185B854E00401BD2 /* ReadablePartial.h */,
+				5FB17332185B922100401BD2 /* ReadablePeriod.h */,
+				5FB17340185BA55D00401BD2 /* ReadWritableInstant.h */,
+				5FE4F0EE1862371D00797534 /* ReadWritablePeriod.h */,
 				5FB17303185B79F800401BD2 /* Supporting Files */,
 			);
 			path = CodaTime;
@@ -141,6 +316,102 @@
 				5FB17319185B79F800401BD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB1733A185B9CFF00401BD2 /* format */ = {
+			isa = PBXGroup;
+			children = (
+				5F331F511863302300EA0A1B /* DateTimeFormat.cpp */,
+				5F331F521863302300EA0A1B /* DateTimeFormat.h */,
+				5FB1733B185B9D0E00401BD2 /* DateTimeFormatter.cpp */,
+				5FB1733C185B9D0E00401BD2 /* DateTimeFormatter.h */,
+				5FB1733E185BA13900401BD2 /* DateTimeParser.h */,
+				5FB1733F185BA19B00401BD2 /* DateTimePrinter.h */,
+				5F331F5418633D6000EA0A1B /* DateTimeParserBucket.cpp */,
+				5F331F5518633D6000EA0A1B /* DateTimeParserBucket.h */,
+				5FB1736B185FC9C300401BD2 /* FormatUtils.h */,
+				5FE4F0EB1862320600797534 /* ISOPeriodFormat.h */,
+				5FE4F0EC186232A200797534 /* PeriodFormatter.h */,
+				5FE4F0F218623FF100797534 /* PeriodParser.h */,
+				5FE4F0ED186234EE00797534 /* PeriodPrinter.h */,
+				5FE4F0F31862478700797534 /* PeriodFormatterBuilder.cpp */,
+				5FE4F0F41862478700797534 /* PeriodFormatterBuilder.h */,
+			);
+			path = format;
+			sourceTree = "<group>";
+		};
+		5FB17342185BA97800401BD2 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				5F331F5918635CEB00EA0A1B /* AbstractDateTime.cpp */,
+				5FB1735B185F978400401BD2 /* AbstractDateTime.h */,
+				5FB17385186116F700401BD2 /* AbstractDuration.cpp */,
+				5FB173841861167500401BD2 /* AbstractDuration.h */,
+				5FB17363185FA65500401BD2 /* AbstractPartial.h */,
+				5FB1738B18611DC000401BD2 /* AbstractPeriod.cpp */,
+				5FB1738C18611DC000401BD2 /* AbstractPeriod.h */,
+				5F331F5718635B1D00EA0A1B /* AbstractInstant.cpp */,
+				5FB17362185FA65500401BD2 /* AbstractInstant.h */,
+				5F331F5D1863687300EA0A1B /* AbstractInterval.cpp */,
+				5FB1734A185C343700401BD2 /* AbstractInterval.h */,
+				5FB1735C185F98CF00401BD2 /* BaseDateTime.h */,
+				5FB17387186118CF00401BD2 /* BaseDuration.h */,
+				5F331F5B1863673900EA0A1B /* BaseInterval.cpp */,
+				5FB1734B185C398A00401BD2 /* BaseInterval.h */,
+				5FB17343185BA98600401BD2 /* BaseLocal.h */,
+				5FB1738E18611FC800401BD2 /* BasePeriod.cpp */,
+				5FB1738F18611FC800401BD2 /* BasePeriod.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		5FB17347185BAB8C00401BD2 /* field */ = {
+			isa = PBXGroup;
+			children = (
+				5FB17348185BABA100401BD2 /* AbstractReadableInstantFieldProperty.h */,
+				5FB173731860D8EA00401BD2 /* BaseDateTimeField.h */,
+				5FB173781860F2F300401BD2 /* BaseDurationField.h */,
+				5FB1737B1860FA5B00401BD2 /* DecoratedDateTimeField.h */,
+				5FB17357185F84B600401BD2 /* FieldUtils.h */,
+				5FB1737C186109CE00401BD2 /* ImpreciseDateTimeField.h */,
+				5FB173761860E3E300401BD2 /* MillisDurationField.h */,
+				5FB173751860E05B00401BD2 /* PreciseDateTimeField.h */,
+				5FB173741860DF6F00401BD2 /* PreciseDurationDateTimeField.h */,
+				5FB173791860F47900401BD2 /* PreciseDurationField.h */,
+				5FB17356185F7EF000401BD2 /* UnsupportedDateTimeField.h */,
+				5FB17355185F750D00401BD2 /* UnsupportedDurationfield.h */,
+				5FB1737A1860F8EA00401BD2 /* ZeroIsMaxDateTimeField.h */,
+			);
+			path = field;
+			sourceTree = "<group>";
+		};
+		5FB1734F185E67CD00401BD2 /* chrono */ = {
+			isa = PBXGroup;
+			children = (
+				5FB17351185F652600401BD2 /* AssembledChronology.h */,
+				5FB173971862219200401BD2 /* BaseChronology.cpp */,
+				5FB17350185F5F9200401BD2 /* BaseChronology.h */,
+				5FB173991862266400401BD2 /* BasicChronology.cpp */,
+				5FB173701860D1B100401BD2 /* BasicChronology.h */,
+				5FB173711860D54F00401BD2 /* BasicGJChronology.h */,
+				5FB1737E18610F8100401BD2 /* BasicYearDateTimeField.cpp */,
+				5FB1737D18610BAD00401BD2 /* BasicYearDateTimeField.h */,
+				5FB173771860E7C500401BD2 /* GJLocaleSymbols.h */,
+				5FB173721860D67000401BD2 /* GregorianChronology.h */,
+				5FB17352185F67AC00401BD2 /* ISOChronology.cpp */,
+				5FB17353185F67AC00401BD2 /* ISOChronology.h */,
+			);
+			path = chrono;
+			sourceTree = "<group>";
+		};
+		5FB17365185FBEFA00401BD2 /* tz */ = {
+			isa = PBXGroup;
+			children = (
+				5FB17367185FBF2700401BD2 /* FixedDateTimeZone.h */,
+				5FB1736A185FC0C000401BD2 /* NameProvider.h */,
+				5FB17369185FC03F00401BD2 /* Provider.h */,
+			);
+			path = tz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +495,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB17308185B79F800401BD2 /* CodaTime.m in Sources */,
+				5FB1737F18610F8100401BD2 /* BasicYearDateTimeField.cpp in Sources */,
+				5FB17346185BAA6600401BD2 /* LocalTime.cpp in Sources */,
+				5F331F5A18635CEB00EA0A1B /* AbstractDateTime.cpp in Sources */,
+				5FB17383186112D700401BD2 /* DateTimeZone.cpp in Sources */,
+				5FB1739E18622BC800401BD2 /* DateTimeFieldType.cpp in Sources */,
+				5FB1738D18611DC000401BD2 /* AbstractPeriod.cpp in Sources */,
+				5F331F5818635B1D00EA0A1B /* AbstractInstant.cpp in Sources */,
+				5FB173961861671800401BD2 /* PeriodType.cpp in Sources */,
+				5FB1734E185C3D4600401BD2 /* Interval.cpp in Sources */,
+				5FB173981862219200401BD2 /* BaseChronology.cpp in Sources */,
+				5FB1739C186228E500401BD2 /* DurationFieldType.cpp in Sources */,
+				5F331F5618633D6000EA0A1B /* DateTimeParserBucket.cpp in Sources */,
+				5F331F5E1863687300EA0A1B /* AbstractInterval.cpp in Sources */,
+				5F331F531863302300EA0A1B /* DateTimeFormat.cpp in Sources */,
+				5FB1736F1860B98C00401BD2 /* LocalDateTime.cpp in Sources */,
+				5FB1733D185B9D0E00401BD2 /* DateTimeFormatter.cpp in Sources */,
+				5FB1739018611FC800401BD2 /* BasePeriod.cpp in Sources */,
+				5FB173931861505600401BD2 /* Period.cpp in Sources */,
+				5F331F5C1863673900EA0A1B /* BaseInterval.cpp in Sources */,
+				5FE4F0F51862478700797534 /* PeriodFormatterBuilder.cpp in Sources */,
+				5FB17328185B7A2A00401BD2 /* DateTimeUtils.cpp in Sources */,
+				5FB1738A18611A3300401BD2 /* Duration.cpp in Sources */,
+				5FB17361185F9AC200401BD2 /* DateTime.cpp in Sources */,
+				5FE4F0F11862385F00797534 /* MutablePeriod.cpp in Sources */,
+				5FB17337185B953600401BD2 /* Instant.cpp in Sources */,
+				5FB17386186116F700401BD2 /* AbstractDuration.cpp in Sources */,
+				5FB1739A1862266400401BD2 /* BasicChronology.cpp in Sources */,
+				5FB17354185F67AC00401BD2 /* ISOChronology.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +629,15 @@
 		5FB17321185B79F800401BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				DSTROOT = /tmp/CodaTime.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodaTime/CodaTime-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/CodaTime",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -343,9 +647,15 @@
 		5FB17322185B79F800401BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				DSTROOT = /tmp/CodaTime.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodaTime/CodaTime-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/CodaTime",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -409,6 +719,7 @@
 				5FB17322185B79F800401BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FB17323185B79F800401BD2 /* Build configuration list for PBXNativeTarget "CodaTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +728,7 @@
 				5FB17325185B79F800401BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
